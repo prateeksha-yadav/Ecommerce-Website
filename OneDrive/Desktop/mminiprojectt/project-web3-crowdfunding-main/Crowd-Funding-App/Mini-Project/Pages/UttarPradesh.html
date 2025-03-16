@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uttar Pradesh</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-insiders.4a070ac/tailwind.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@1.10.0/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header class="text-white-600 body-font head">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center pl-16 pr-10 navbar">
+            <a class="flex title-font font-medium items-center text-white-900 mb-4 md:mb-0">
+                <img class="logo" src="../Travel_Guru.png"></img>
+                <span class="ml-3 text-3xl">Travel Guru</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+
+                <a href="#intro" class="mr-5 text-2xl hover:text-white-900">Introduction</a>
+                <a href="#photo" class="mr-5 text-2xl hover:text-white-900">Photos</a>
+                <a href="#contact" class="mr-5 text-2xl hover:text-white-900">Contact Us</a>
+                <button class="w-40 p-2 rounded-xl focus:outline-none bg-red-200 " onclick="search()">Search</button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="carosel">
+        <div class="img">
+            <img src="https://www.holidify.com/images/bgImages/FATEHPUR.jpg" alt="" srcset="">
+        </div>
+    </div>
+
+
+    <div class="detail">
+        <div class="description">
+            Rajasthan  Hindustani pronunciation: (About this soundlisten); lit. 'Land of Kings') is a state located in northern India. The state covers an area of 342,239 square kilometres (132,139 sq mi) or 10.4 percent of the total geographical area of India. It is the largest Indian state by area and the seventh largest by population. Rajasthan is located on the northwestern side of India, where it comprises most of the wide and inhospitable Thar Desert (also known as the "Great Indian Desert") and shares a border with the Pakistani provinces of Punjab to the northwest and Sindh to the west, along the Sutlej-Indus river valley. It is bordered by five other Indian states: Punjab to the north; Haryana and Uttar Pradesh to the northeast; Madhya Pradesh to the southeast; and Gujarat to the southwest. Its geographical location is 23.3 to 30.12 North latitude and 69.30 to 78.17 East longitude, with the Tropic of Cancer passing through southernmost tip of the state.
+            Major features include the ruins of the Indus Valley Civilisation at Kalibangan and Balathal, <span id="dots">...</span> 
+             
+            <span id="more">
+                the Dilwara Temples, a Jain pilgrimage site at Rajasthan's only hill station, Mount Abu, in the ancient Aravalli mountain range and in eastern Rajasthan, the Keoladeo National Park of Bharatpur, a World Heritage Site known for its bird life. Rajasthan is also home to three national tiger reserves, the Ranthambore National Park in Sawai Madhopur, Sariska Tiger Reserve in Alwar and Mukundra Hills Tiger Reserve in Kota.
+                The state was formed on 30 March 1949 when Rajputana – the name adopted by the British Raj for its dependencies in the region – was merged into the Dominion of India. Its capital and largest city is Jaipur. Other important cities are Jodhpur, Kota, Bikaner, Ajmer, Bharatpur and Udaipur. The economy of Rajasthan is the seventh-largest state economy in India with ₹10.20 lakh crore (US$140 billion) in gross domestic product and a per capita GDP of ₹118,000 (US$1,700). Rajasthan ranks 29th among Indian states in human development index.
+            </span>
+        </div>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+    </div>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-3xl text-5xl font-medium title-font mb-4 text-gray-900">Attractions</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-3xl">Explore the colonial city of UttarPardesh</p>
+            </div>
+
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_536597029_20190606160921_20190606161228.jpg">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Victoria Memorial</h1>
+                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://www.holidify.com/images/bgImages/OSIAN.jpg">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Victoria Memorial</h1>
+                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1031572588_20200219165610_20200219165630.jpg">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Mandermoni Sea Beach</h1>
+                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-2/3 p-4">
+                    <div class="flex relative card-img">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://www.holidify.com/images/cmsuploads/compressed/22809330353_510177c130_b_20170521144350.jpg">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Vidyasagar Setu</h1>
+                            <p class="leading-relaxed">It is a toll bridge
+                                over the Hooghly River in West Bengal, India, linking the cities of Kolkata and Howrah.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative card-img">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://www.holidify.com/images/cmsuploads/compressed/1831_20190228134108.jpg">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Holden Caulfield</h1>
+                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative card-img">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://www.holidify.com/images/bgImages/JAISALMER.jpg">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">THE SUBTITLE
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Alper Kamu</h1>
+                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white-600 body-font foot footer">
+        <div
+            class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-white-900">
+                    <img class="logo" src="../Travel_Guru.png"></img>
+                    <span class="ml-3 text-xl">Travel Guru</span>
+                </a>
+                <p class="mt-2 text-sm text-white-500">Your Tourism guide for best ever places you can think of visiting
+                </p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2
+                        class="title-font font-extrabold text-white-900 underline font-serif tracking-widest text-sm mb-3">
+                        State Tourism Websites</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="https://www.gujarattourism.com/"
+                                class="text-white-600 hover:text-white-800">Gujrat</a>
+                        </li>
+                        <li>
+                            <a href="https://uttarakhandtourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Uttrakhand</a>
+                        </li>
+                        <li>
+                            <a href="http://megtourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Meghalaya</a>
+                        </li>
+                        <li>
+                            <a href="https://www.mptourism.com/" class="text-white-600 hover:text-white-800">Madhya
+                                Pradhesh</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">&emsp;</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="https://www.keralatourism.org/"
+                                class="text-white-600 hover:text-white-800">Kerela</a>
+                        </li>
+                        <li>
+                            <a href="https://wbtourism.gov.in/" class="text-white-600 hover:text-white-800">West
+                                Bengal</a>
+                        </li>
+                        <li>
+                            <a href="http://www.uptourism.gov.in/" class="text-white-600 hover:text-white-800">Uttar
+                                Pradesh</a>
+                        </li>
+                        <li>
+                            <a href="https://tourism.bihar.gov.in/"
+                                class="text-white-600 hover:text-white-800">Bihar</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">&emsp;</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="https://tourism.assam.gov.in/"
+                                class="text-white-600 hover:text-white-800">Assam</a>
+                        </li>
+                        <li>
+                            <a href="https://haryanatourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Haryana</a>
+                        </li>
+                        <li>
+                            <a href="http://punjabtourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Punjab</a>
+                        </li>
+                        <li>
+                            <a href="http://www.tamilnadutourism.org/" class="text-white-600 hover:text-white-800">Tamil
+                                Nadu</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2
+                        class="title-font font-extrabold underline text-white-900 font-serif tracking-widest text-sm mb-3">
+                        Union Territory Tourism</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="http://www.delhitourism.gov.in/delhitourism/index.jsp"
+                                class="text-white-600 hover:text-white-800">Delhi</a>
+                        </li>
+                        <li>
+                            <a href="https://www.andaman.gov.in/" class="text-white-600 hover:text-white-800">Andaman
+                                Nicobar</a>
+                        </li>
+                        <li>
+                            <a href="https://www.lakshadweeptourism.com/"
+                                class="text-white-600 hover:text-white-800">Lakshwadweep</a>
+                        </li>
+                        <li>
+                            <a href="http://www.pondytourism.in/"
+                                class="text-white-600 hover:text-white-800">Pudducherry</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="./Script.js"></script>
+</body>
+
+</html>

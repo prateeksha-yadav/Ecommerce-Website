@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"../../../../../../../src/evm/components/shared/Icon","sources":["types.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAE1B,MAAM,WAAW,YAAY;IAC3B,QAAQ,EAAE,KAAK,CAAC,QAAQ,CAAC,aAAa,CAAC,CAAC;IACxC,KAAK,EAAE,GAAG,CAAC,OAAO,CAAC;CACpB"}

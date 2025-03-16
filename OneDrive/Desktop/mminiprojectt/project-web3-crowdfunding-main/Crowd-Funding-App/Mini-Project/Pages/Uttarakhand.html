@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-insiders.4a070ac/tailwind.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@1.10.0/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header class="text-white-600 body-font head">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center pl-16 pr-10 navbar">
+            <a class="flex title-font font-medium items-center text-white-900 mb-4 md:mb-0">
+                <img class="logo" src="../Travel_Guru.png"></img>
+                <span class="ml-3 text-3xl">Travel Guru</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+
+                <a href="#intro" class="mr-5 text-2xl hover:text-white-900">Introduction</a>
+                <a href="#photo" class="mr-5 text-2xl hover:text-white-900">Photos</a>
+                <a href="#contact" class="mr-5 text-2xl hover:text-white-900">Contact Us</a>
+                <button class="w-40 p-2 rounded-xl focus:outline-none bg-red-200 " onclick="search()">Search</button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="carosel">
+        <div class="img">
+            <img src="./UTTARAKHAND.jpg" alt="" srcset="">
+        </div>
+    </div>
+
+
+    <div class="detail">
+        <div class="description">
+            Uttarakhand was formed on the 9th November 2000 as the 27th State of India, when it was carved out of northern Uttar Pradesh. Located at the foothills of the Himalayan mountain ranges, it is largely a hilly State, having international boundaries with China (Tibet) in the north and Nepal in the east. On its north-west lies Himachal Pradesh, while on the south is Uttar Pradesh. It is rich in natural resources especially water and forests with many glaciers, rivers, dense forests and snow-clad mountain peaks. Char-dhams, the four most sacred and revered Hindu temples of Badrinath,Kedarnath, Gangotri and Yamunotri are nestled in the mighty mountains. It’s truly God’s Land (Dev Bhoomi). Dehradun is the Capital of Uttarakhand. It is one of the most beautiful resort in the submountain tracts of India, known for its scenic surroundings. The town lies in the Dun Valley, on the watershed of the Ganga and Yamuna rivers. <span id="dots">...</span>
+            <span id="more">
+                UTTARAKHAND TOURISM A mystical land of mountains and mythologies, exquisite landscapes and exhilarating adventure, and wellness and yoga, Uttarakhand has something to offer every traveller. Popularly known as Devbhoomi, or the land of gods, the state is framed by the Himalayas and divided into two main regions, Garhwal and Kumaon. While Uttarakhand has several well-known destinations like Nainital, Mussoorie, Corbett National Park and Auli, and pilgrimage sites like Kedarnath, Badrinath, Rishikesh and Haridwar, explore the 13 lesser-known destinations from the state's 13 districts.
+            </span>
+        </div>
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+    </div>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="sm:text-3xl text-5xl font-medium title-font mb-4 text-gray-900">Attractions</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-3xl">Explore the place of piety and natural beauty</p>
+            </div>
+
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://media.istockphoto.com/photos/kedarnath-in-india-picture-id515855602?k=6&m=515855602&s=612x612&w=0&h=7A4pBRIM3BVgCdcTCV9XQtJ6jEDSOju7-SV9EOtaCI8=">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Kedarnath</h1>
+                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://media.istockphoto.com/photos/hardiwar-picture-id825268350?k=6&m=825268350&s=612x612&w=0&h=3kolQkyO6-O9eIny7DZf39d0CY5J5Ye70-F6lpPGEDI=">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Haridwar</h1>
+                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://media.istockphoto.com/photos/rishikesh-in-india-picture-id1027228942?k=6&m=1027228942&s=612x612&w=0&h=2i6NOity2x_ZHSrMm2Eq2p8qwO0-_mDnI_rKqtzHLxw=">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Rishikesh</h1>
+                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-2/3 p-4">
+                    <div class="flex relative card-img">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://www.holidify.com/images/bgImages/NAINITAL.jpg">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Nainital</h1>
+                            <p class="leading-relaxed">It is a toll bridge
+                                over the Hooghly River in West Bengal, India, linking the cities of Kolkata and Howrah.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative card-img">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://www.holidify.com/images/bgImages/AULI.jpg">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Auli</h1>
+                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative card-img">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                            src="https://www.holidify.com/images/bgImages/MUSSOORIE.jpg">
+                        <div
+                            class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">&emsp;
+                            </h2>
+                            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Mussoorie</h1>
+                            <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+                                microdosing tousled waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white-600 body-font foot footer">
+        <div
+            class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-white-900">
+                    <img class="logo" src="../Travel_Guru.png"></img>
+                    <span class="ml-3 text-xl">Travel Guru</span>
+                </a>
+                <p class="mt-2 text-sm text-white-500">Your Tourism guide for best ever places you can think of visiting
+                </p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2
+                        class="title-font font-extrabold text-white-900 underline font-serif tracking-widest text-sm mb-3">
+                        State Tourism Websites</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="https://www.gujarattourism.com/"
+                                class="text-white-600 hover:text-white-800">Gujrat</a>
+                        </li>
+                        <li>
+                            <a href="https://uttarakhandtourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Uttrakhand</a>
+                        </li>
+                        <li>
+                            <a href="http://megtourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Meghalaya</a>
+                        </li>
+                        <li>
+                            <a href="https://www.mptourism.com/" class="text-white-600 hover:text-white-800">Madhya
+                                Pradhesh</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">&emsp;</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="https://www.keralatourism.org/"
+                                class="text-white-600 hover:text-white-800">Kerela</a>
+                        </li>
+                        <li>
+                            <a href="https://wbtourism.gov.in/" class="text-white-600 hover:text-white-800">West
+                                Bengal</a>
+                        </li>
+                        <li>
+                            <a href="http://www.uptourism.gov.in/" class="text-white-600 hover:text-white-800">Uttar
+                                Pradesh</a>
+                        </li>
+                        <li>
+                            <a href="https://tourism.bihar.gov.in/"
+                                class="text-white-600 hover:text-white-800">Bihar</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-white-900 tracking-widest text-sm mb-3">&emsp;</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="https://tourism.assam.gov.in/"
+                                class="text-white-600 hover:text-white-800">Assam</a>
+                        </li>
+                        <li>
+                            <a href="https://haryanatourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Haryana</a>
+                        </li>
+                        <li>
+                            <a href="http://punjabtourism.gov.in/"
+                                class="text-white-600 hover:text-white-800">Punjab</a>
+                        </li>
+                        <li>
+                            <a href="http://www.tamilnadutourism.org/" class="text-white-600 hover:text-white-800">Tamil
+                                Nadu</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2
+                        class="title-font font-extrabold underline text-white-900 font-serif tracking-widest text-sm mb-3">
+                        Union Territory Tourism</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a href="http://www.delhitourism.gov.in/delhitourism/index.jsp"
+                                class="text-white-600 hover:text-white-800">Delhi</a>
+                        </li>
+                        <li>
+                            <a href="https://www.andaman.gov.in/" class="text-white-600 hover:text-white-800">Andaman
+                                Nicobar</a>
+                        </li>
+                        <li>
+                            <a href="https://www.lakshadweeptourism.com/"
+                                class="text-white-600 hover:text-white-800">Lakshwadweep</a>
+                        </li>
+                        <li>
+                            <a href="http://www.pondytourism.in/"
+                                class="text-white-600 hover:text-white-800">Pudducherry</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="./Script.js"></script>
+</body>
+
+</html>
